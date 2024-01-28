@@ -1,0 +1,44 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 214c2b0c-e377-4b7f-8bdd-75333cb9dcd1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 39.37 40.64) (size 34.29 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 19ea89f7-aa30-493f-ae4b-82f44ee1c242)
+    (property "Sheetname" "POWER_SUPPLY" (at 39.37 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "POWER_SUPPLY.kicad_sch" (at 39.37 65.3546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WLED_V0.1"
+        (path "/982a1833-628e-4c1f-af3b-fb27800f6621/fc46754a-1a21-49e2-8283-d15cdfa19d98" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 99.06 110.49) (size 35.56 33.02) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1f621328-5103-416e-a991-3c3b3064e313)
+    (property "Sheetname" "ESP-12S" (at 99.06 109.7784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ESP-12S.kicad_sch" (at 99.06 144.0946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WLED_V0.1"
+        (path "/982a1833-628e-4c1f-af3b-fb27800f6621/fc46754a-1a21-49e2-8283-d15cdfa19d98" (page "3"))
+      )
+    )
+  )
+)

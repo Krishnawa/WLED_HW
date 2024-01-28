@@ -1,0 +1,12 @@
+2023-11-01 16:05:09,452 - panelizer_logger - INFO - Running Panelizer
+2023-11-01 16:05:09,497 - panelizer_logger - INFO - ['--panelx', '139.700000', '--panely', '190.500000', '--smaller', '--gapx', '0.000000', '--gapy', '0.000000']
+2023-11-01 16:05:09,517 - panelizer_logger - INFO - PANELIZER START: 2023-11-01T16:05:09.517338
+2023-11-01 16:05:12,502 - panelizer_logger - WARNING - 
+START: 2023-11-01T16:05:09.517293
+
+Board: /home/dell/Desktop/WLED_PROTOTYPE_V0.1/WLED_V0.1/Production/WLED_V0.1_panelized.kicad_pcb
+Board dimensions: 64.77 x 62.23 mm.
+You can fit 2 x 3 boards on the panel.
+Ordering Instructions not found! No futher ordering warnings will be given.
+
+2023-11-01 16:05:16,484 - panelizer_logger - INFO - Panelizer complete

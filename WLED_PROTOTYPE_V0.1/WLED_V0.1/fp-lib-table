@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ESP-12S")(type "KiCad")(uri "${KIPRJMOD}/LIB/ESP-12S")(options "")(descr ""))
+  (lib (name "TSOP1838")(type "KiCad")(uri "${KIPRJMOD}/LIB/TSOP1838")(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+https://www.evilgeniuslabs.org/wifi-led-controller#details
+https://github.com/lizardsystems/yawl-controller/blob/main/level-shifter.md
+https://github.com/lizardsystems/yawl-controller
+https://kno.wled.ge/basics/getting-started/

@@ -1,0 +1,1243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/dell/Desktop/WLED_PROTOTYPE_V0.1/WLED_V0.1/WLED_V0.1.kicad_sch</source>
+    <date>ബുധന്‍ 01 നവംബർ 2023 11:37:24 രാവിലെ</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>WLED_V0.1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Top_Sheet/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Top_Sheet.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ESP-12S.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>POWER_SUPPLY.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>cc63622a-bcee-49eb-a803-fe990c73e871</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>7f5842ee-495e-4d76-9cce-9bc0180a62f9</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1000u</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>b0e2300c-912c-4d50-be27-79a1ecb9ddf0</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>860cacd2-3eb3-4bed-a401-80fc7b806a47</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>e35cc7a3-92f4-4add-82f2-f0633d6eed3a</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>27776891-7802-46f9-b110-e8ed06505e94</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>b07a5898-1a6b-490a-af11-fc9a65af1de3</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>6dc691f5-20c0-4e13-8fb3-dda5bcefa06f</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>72ebb439-ec30-48c2-8da2-5f2fe4b0b976</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B</value>
+      <footprint>LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</datasheet>
+      <libsource lib="LED" part="WS2812B" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="RGB LED with integrated controller"/>
+      <property name="ki_keywords" value="RGB LED NeoPixel addressable"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>0e2a366d-ba4c-4c47-b9ac-1ce4f73f380d</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuseholder_Clip-5x20mm_Keystone_3512P_Inline_P23.62x7.27mm_D1.02x2.41x1.02x1.57mm_Horizontal</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>70cdf50d-8ae5-456b-96b8-e70ae9083d0d</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>14e87a35-1b75-486e-ae24-68456ec0231d</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>c1bdd7ec-49ee-41e2-9f04-2d46a8a9129f</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>198ccdbe-7be6-4b65-861c-9f1714ccff46</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x04</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-4_1x04_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x04" description="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>bbab7873-ddac-40e8-a047-93dfa4376811</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>b3ac788f-9cc6-47d0-9b0f-eb621039a0ae</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>AudioJack2_Ground_Switch</value>
+      <footprint>Connector_Audio:Jack_3.5mm_CUI_SJ1-3525N_Horizontal</footprint>
+      <libsource lib="Connector_Audio" part="AudioJack2_Ground_Switch" description="Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>887410c6-f8e5-4b89-af09-96eb86cf0471</tstamps>
+    </comp>
+    <comp ref="K1">
+      <value>G5LE-1</value>
+      <footprint>Relay_THT:Relay_SPDT_Omron-G5LE-1</footprint>
+      <datasheet>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</datasheet>
+      <libsource lib="Relay" part="G5LE-1" description="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Omron G5LE relay, Miniature Single Pole, SPDT, 10A"/>
+      <property name="ki_keywords" value="Miniature Single Pole Relay"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>c689bc20-a3dc-4d14-a4d8-417b37b99f97</tstamps>
+    </comp>
+    <comp ref="MK1">
+      <value>Microphone</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Device" part="Microphone" description="Microphone"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Microphone"/>
+      <property name="ki_keywords" value="microphone"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>5a26f51f-cff1-400d-82d5-0987118e3e34</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>ce897131-d31d-4a59-8958-15631b9da225</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>6845af91-49a9-45ad-92e1-b8cd892254e4</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS138</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>337a54e3-2f83-42c4-9d26-11a3608a66f3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>b605de1c-1fa2-4731-bc66-e49cb478f71c</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>066d2289-23f3-4932-ae6b-36feb9433d6f</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>cd04c241-b19f-4b6b-a6ce-8b7c7dd11cc2</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>37755137-393a-48b5-8de8-5361f6b70791</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>K10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>5ad2e2bd-f0d4-4b7a-b04d-138c33fd9141</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>K10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>811530dd-2536-443d-9c8e-49c1b3719316</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>9a635820-50e1-4369-9e13-cd8b14735ac0</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small symbol"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>1538b536-2f9b-4a6c-abca-15742d4ace95</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>743db32a-ab1d-4466-a2c8-e25f3bfe83ac</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>223e1070-63e3-46d7-82b1-97e4845ce08a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>80f59b64-1599-4bd9-8d33-796fdd6e035e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>ea7cc068-ec7d-4300-b418-daf8cba26b50</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>706c4554-8fdd-4bd1-8048-3d2924e6e444</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>3.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>53031b8f-22ba-4f85-9393-3e1e71efa2c4</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>20938085-eb86-4076-99c8-c53a8d770f49</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SPST</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm_H7.3mm</footprint>
+      <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <property name="ki_description" value="Single Pole Single Throw (SPST) switch"/>
+      <property name="ki_keywords" value="switch lever"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>4894e155-1faf-4f17-9139-00f041673855</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP-12S</value>
+      <footprint>ESP-12S:MODULE_ESP-12S</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP-12S/RF+Solutions/view-part/?ref=eda</field>
+        <field name="Description">
+WiFi 802.11b/g/n Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount
+</field>
+        <field name="MANUFACTURER">RF Solutions</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3 mm</field>
+        <field name="MF">RF Solutions</field>
+        <field name="MP">ESP-12S</field>
+        <field name="PARTREV">V1.1</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3210766&amp;manufacturer=RF Solutions&amp;part_name=ESP-12S&amp;search_term=esp-12s</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP-12S/RF+Solutions/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="ESP-12S" part="ESP-12S" description=""/>
+      <property name="MF" value="RF Solutions"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ESP-12S/RF+Solutions/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="V1.1"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ESP-12S/RF+Solutions/view-part/?ref=snap"/>
+      <property name="MP" value="ESP-12S"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3210766&amp;manufacturer=RF Solutions&amp;part_name=ESP-12S&amp;search_term=esp-12s"/>
+      <property name="Description" value="&#xA;WiFi 802.11b/g/n Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount&#xA;"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="RF Solutions"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>a9c8700f-54c8-4d20-974e-464f7dc996a9</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TSOP1838</value>
+      <footprint>TSOP1838:TSOP18XX</footprint>
+      <fields>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=eda</field>
+        <field name="Description">
+IR Remote Receiver 38KHz 35m 3-Pin
+</field>
+        <field name="MF">Vishay</field>
+        <field name="MP">TSOP1838</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="TSOP1838" part="TSOP1838" description=""/>
+      <property name="MF" value="Vishay"/>
+      <property name="Description" value="&#xA;IR Remote Receiver 38KHz 35m 3-Pin&#xA;"/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=snap"/>
+      <property name="MP" value="TSOP1838"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=eda"/>
+      <property name="Sheetname" value="ESP-12S"/>
+      <property name="Sheetfile" value="ESP-12S.kicad_sch"/>
+      <sheetpath names="/Top_Sheet/ESP-12S/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/1f621328-5103-416e-a991-3c3b3064e313/"/>
+      <tstamps>aacacf8b-2e13-47fa-935a-2732854dbb16</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="POWER_SUPPLY"/>
+      <property name="Sheetfile" value="POWER_SUPPLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/"/>
+      <tstamps>91cde98e-774d-4ba6-a344-2f61b49f1fb4</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="POWER_SUPPLY"/>
+      <property name="Sheetfile" value="POWER_SUPPLY.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/"/>
+      <tstamps>dfca3b03-e71a-4f7f-9f6a-82b92b468e3f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS16</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value="POWER_SUPPLY"/>
+      <property name="Sheetfile" value="POWER_SUPPLY.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/"/>
+      <tstamps>2fd514df-a0ac-4398-bcdb-e37ef5a12c20</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <libsource lib="Device" part="Fuse" description="Fuse"/>
+      <property name="Sheetname" value="POWER_SUPPLY"/>
+      <property name="Sheetfile" value="POWER_SUPPLY.kicad_sch"/>
+      <property name="ki_description" value="Fuse"/>
+      <property name="ki_keywords" value="fuse"/>
+      <sheetpath names="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/"/>
+      <tstamps>ce40b90a-16c7-449c-afd0-7eb12421a8b1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="POWER_SUPPLY"/>
+      <property name="Sheetfile" value="POWER_SUPPLY.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/"/>
+      <tstamps>6cfef0cd-ea8a-4f74-be1d-dd528bb6e0d2</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>NCP1117-3.3_SOT223</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="NCP1117-3.3_SOT223" description="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Sheetname" value="POWER_SUPPLY"/>
+      <property name="Sheetfile" value="POWER_SUPPLY.kicad_sch"/>
+      <property name="ki_description" value="1A Low drop-out regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="ki_keywords" value="REGULATOR LDO 3.3V"/>
+      <sheetpath names="/Top_Sheet/POWER_SUPPLY/" tstamps="/fc46754a-1a21-49e2-8283-d15cdfa19d98/19ea89f7-aa30-493f-ae4b-82f44ee1c242/"/>
+      <tstamps>46327edd-4809-4851-aa2c-69ad40b71085</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x04">
+      <description>Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="AudioJack2_Ground_Switch">
+      <description>Audio Jack, 2 Poles (Mono / TS), Grounded Sleeve, Switched Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AudioJack2_Ground_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="G" name="" type="passive"/>
+        <pin num="S" name="" type="passive"/>
+        <pin num="SN" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Microphone">
+      <description>Microphone</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">MK</field>
+        <field name="Value">Microphone</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ESP-12S" part="ESP-12S">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">ESP-12S</field>
+        <field name="Footprint">ESP-12S:MODULE_ESP-12S</field>
+        <field name="MF">RF Solutions</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3 mm</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ESP-12S/RF+Solutions/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">V1.1</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ESP-12S/RF+Solutions/view-part/?ref=snap</field>
+        <field name="MP">ESP-12S</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=3210766&amp;manufacturer=RF Solutions&amp;part_name=ESP-12S&amp;search_term=esp-12s</field>
+        <field name="Description">
+WiFi 802.11b/g/n Transceiver Module 2.412GHz ~ 2.484GHz PCB Trace Surface Mount
+</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">RF Solutions</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RST" type="input"/>
+        <pin num="2" name="ADC" type="bidirectional"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="IO16" type="bidirectional"/>
+        <pin num="5" name="IO14" type="bidirectional"/>
+        <pin num="6" name="IO12" type="bidirectional"/>
+        <pin num="7" name="IO13" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="IO15" type="bidirectional"/>
+        <pin num="11" name="IO2" type="bidirectional"/>
+        <pin num="12" name="IO0" type="bidirectional"/>
+        <pin num="13" name="IO4" type="bidirectional"/>
+        <pin num="14" name="IO5" type="bidirectional"/>
+        <pin num="15" name="RXD0" type="bidirectional"/>
+        <pin num="16" name="TXD0" type="bidirectional"/>
+        <pin num="17" name="EXP" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="WS2812B">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</docs>
+      <footprints>
+        <fp>LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="DOUT" type="output"/>
+        <pin num="3" name="VSS" type="power_in"/>
+        <pin num="4" name="DIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="NCP1117-3.3_SOT223">
+      <description>1A Low drop-out regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP1117-3.3_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="G5LE-1">
+      <description>Omron G5LE relay, Miniature Single Pole, SPDT, 10A</description>
+      <docs>http://www.omron.com/ecb/products/pdf/en-g5le.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*Omron*G5LE?1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G5LE-1</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_Omron-G5LE-1</field>
+        <field name="Datasheet">http://www.omron.com/ecb/products/pdf/en-g5le.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_SPST">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TSOP1838" part="TSOP1838">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSOP1838</field>
+        <field name="Footprint">TSOP1838:TSOP18XX</field>
+        <field name="MF">Vishay</field>
+        <field name="Description">
+IR Remote Receiver 38KHz 35m 3-Pin
+</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=snap</field>
+        <field name="MP">TSOP1838</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/TSOP1838/Vishay/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="bidirectional"/>
+        <pin num="OUT" name="OUT" type="bidirectional"/>
+        <pin num="VCC" name="V+" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Audio">
+      <uri>/usr/share/kicad/symbols//Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="ESP-12S">
+      <uri>/home/dell/Desktop/WLED_PROTOTYPE_V0.1/WLED_V0.1/LIB/ESP-12S/ESP-12S.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>/usr/share/kicad/symbols//LED.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/symbols//Relay.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="TSOP1838">
+      <uri>/home/dell/Desktop/WLED_PROTOTYPE_V0.1/WLED_V0.1/LIB/TSOP1838/TSOP1838.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="K1" pin="4" pintype="passive"/>
+      <node ref="K1" pin="5" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="/Top_Sheet/ESP-12S/5V_LED">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="K1" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="/Top_Sheet/ESP-12S/ADC">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="ADC" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/Top_Sheet/ESP-12S/CLK">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/Top_Sheet/ESP-12S/DATA">
+      <node ref="D2" pin="4" pinfunction="DIN" pintype="input"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/Top_Sheet/ESP-12S/IO0">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="IO0" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/Top_Sheet/ESP-12S/IO2">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Top_Sheet/ESP-12S/IO4">
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="IO4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/Top_Sheet/ESP-12S/IO5">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="IO5" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/Top_Sheet/ESP-12S/IO12">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="IO12" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/Top_Sheet/ESP-12S/IO13">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="IO13" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/Top_Sheet/ESP-12S/IO14">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IO14" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/Top_Sheet/ESP-12S/IO15">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="IO15" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/Top_Sheet/ESP-12S/IO16">
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="IO16" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/Top_Sheet/ESP-12S/RXD0">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="RXD0" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/Top_Sheet/ESP-12S/TXD">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="TXD0" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="VSS" pintype="power_in"/>
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="G" pintype="passive"/>
+      <node ref="MK1" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="EXP" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="GND" pinfunction="GND" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="Net-(C8-Pad2)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J6" pin="T" pintype="passive"/>
+      <node ref="J6" pin="TN" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C9-Pad2)">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J6" pin="S" pintype="passive"/>
+      <node ref="J6" pin="SN" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(J3-Pin_1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(J4-Pin_1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(MK1-+)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="MK1" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q3-D)">
+      <node ref="K1" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q3-G)">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="OUT" pinfunction="OUT" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="Net-(U1-EN)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U1-RST)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="RST" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U3-V+)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="VCC" pinfunction="V+" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="unconnected-(D2-DOUT-Pad2)">
+      <node ref="D2" pin="2" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(J2-Pin_1-Pad1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(J2-Pin_4-Pad4)">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J2-Pin_5-Pad5)">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(K1-Pad3)">
+      <node ref="K1" pin="3" pintype="passive"/>
+    </net>
+  </nets>
+</export>
